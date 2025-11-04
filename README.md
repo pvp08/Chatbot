@@ -27,12 +27,12 @@ A professional AI-powered chatbot backend built with FastAPI, MongoDB, and Groq 
 
 ## Quick Start:
 
-1. Clone the Repository
-bashgit clone https://github.com/yourusername/pinnacle-chatbot.git
-cd pinnacle-chatbot
-2. Set Up Virtual Environment
-bash# Create virtual environment
-python -m venv venv
+1. Clone the Repository <br>
+bashgit clone https://github.com/yourusername/pinnacle-chatbot.git <br>
+cd pinnacle-chatbot <br>
+2. Set Up Virtual Environment <br>
+bash# Create virtual environment <br>
+python -m venv venv <br>
 
 ### Activate it
 #### On macOS/Linux:
@@ -41,10 +41,10 @@ source venv/bin/activate
 #### On Windows:
 venv\Scripts\activate
 
-3. Install Dependencies
+3. Install Dependencies <br>
 bashpip install -r requirements.txt
 
-4. Configure Environment Variables
+4. Configure Environment Variables <br>
 Create a .env file in the backend directory:<br>
 MONGO_URL="mongodb://localhost:27017"<br>
 DB_NAME="test_database"<br>
