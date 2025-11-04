@@ -1,31 +1,31 @@
 ## Chatbot API
 A professional AI-powered chatbot backend built with FastAPI, MongoDB, and Groq AI. Designed for IT recruiting and software solutions company customer support.
 
-* Features:
+# Features:
 
-~ Fast & Free AI - Powered by Groq's lightning-fast LLaMA 3.1 model
-~ Conversational Memory - Maintains context across chat sessions
-~ MongoDB Storage - Persistent chat history and session management
-~ RESTful API - Clean, documented endpoints for easy integration
-~ CORS Enabled - Ready for frontend integration
-~ Professional Responses - Context-aware answers about IT recruiting and software services
+* Fast & Free AI - Powered by Groq's lightning-fast LLaMA 3.1 model
+* Conversational Memory - Maintains context across chat sessions
+* MongoDB Storage - Persistent chat history and session management
+* RESTful API - Clean, documented endpoints for easy integration
+* CORS Enabled - Ready for frontend integration
+* Professional Responses - Context-aware answers about IT recruiting and software services
 
-* Tech Stack:
+# Tech Stack:
 
-~ FastAPI - Modern, fast Python web framework
-~ MongoDB - NoSQL database for chat storage
-~ Motor - Async MongoDB driver
-~ Groq AI - Free, ultra-fast LLM inference
-~ Pydantic - Data validation and serialization
-~ Python 3.8+
+* FastAPI - Modern, fast Python web framework
+* MongoDB - NoSQL database for chat storage
+* Motor - Async MongoDB driver
+* Groq AI - Free, ultra-fast LLM inference
+* Pydantic - Data validation and serialization
+* Python 3.8+
 
-* Prerequisites:
+# Prerequisites:
 
-~ Python 3.8 or higher
-~ MongoDB 8.0+ (local or cloud)
-~ Groq API Key (free at console.groq.com)
+* Python 3.8 or higher
+* MongoDB 8.0+ (local or cloud)
+* Groq API Key (free at console.groq.com)
 
-* Quick Start:
+# Quick Start:
 
 1. Clone the Repository
 bashgit clone https://github.com/yourusername/pinnacle-chatbot.git
