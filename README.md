@@ -34,15 +34,15 @@ cd pinnacle-chatbot <br>
 bash# Create virtual environment <br>
 python -m venv venv <br>
 
-### Activate it
-#### On macOS/Linux:
-source venv/bin/activate
+Activate it : <br>
+On macOS/Linux: <br>
+source venv/bin/activate<br>
 
-#### On Windows:
-venv\Scripts\activate
+On Windows: <br>
+venv\Scripts\activate <br>
 
 3. Install Dependencies <br>
-bashpip install -r requirements.txt
+bashpip install -r requirements.txt <br>
 
 4. Configure Environment Variables <br>
 Create a .env file in the backend directory:<br>
@@ -50,7 +50,7 @@ MONGO_URL="mongodb://localhost:27017"<br>
 DB_NAME="test_database"<br>
 GROQ_API_KEY="gsk_your_api_key_here"<br>
 GROQ_MODEL="llama-3.1-8b-instant"<br>
-CORS_ORIGINS=http://localhost:3000,http://localhost:3001
+CORS_ORIGINS=http://localhost:3000,http://localhost:3001<br>
 
 ## Running the Project <br>
 1) Start MongoDB <br>
