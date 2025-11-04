@@ -45,16 +45,16 @@ venv\Scripts\activate
 bashpip install -r requirements.txt
 
 4. Configure Environment Variables
-Create a .env file in the backend directory:
-MONGO_URL="mongodb://localhost:27017"
-DB_NAME="test_database"
-GROQ_API_KEY="gsk_your_api_key_here"
-GROQ_MODEL="llama-3.1-8b-instant"
+Create a .env file in the backend directory:<br>
+MONGO_URL="mongodb://localhost:27017"<br>
+DB_NAME="test_database"<br>
+GROQ_API_KEY="gsk_your_api_key_here"<br>
+GROQ_MODEL="llama-3.1-8b-instant"<br>
 
 ### CORS Configuration (comma-separated origins)
 CORS_ORIGINS=http://localhost:3000,http://localhost:3001
 
 ## Steps to run:
-1)Start MongoDB - brew services start mongodb-community@8.0
-2)Run the Server - Go to backend folder and run : uvicorn server:app --reload --host 0.0.0.0 --port 8000
-3)Run the React App - In new terminal in main chatbot folder run : npm start
+1)Start MongoDB - brew services start mongodb-community@8.0 <br>
+2)Run the Server - Go to backend folder and run : uvicorn server:app --reload --host 0.0.0.0 --port 8000 <br>
+3)Run the React App - In new terminal in main chatbot folder run : npm start<br>
