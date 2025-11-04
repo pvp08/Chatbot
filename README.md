@@ -28,8 +28,8 @@ A professional AI-powered chatbot backend built with FastAPI, MongoDB, and Groq 
 ## Quick Start:
 
 1. Clone the Repository <br>
-bashgit clone https://github.com/yourusername/pinnacle-chatbot.git <br>
-cd pinnacle-chatbot <br>
+bashgit clone url <br>
+cd chatbot <br>
 
 2. Set Up Virtual Environment <br>
 bash# Create virtual environment <br>
